@@ -24,7 +24,7 @@ public class FileUtility {
             reader.close();
 
             // MODIFY (append) to the file
-            System.out.println("\nEnter new text to append to the file:");
+            System.out.println("\nEnnter new texet to append to the file:");
             String newText=scanner.nextLine();
             FileWriter appendWriter=new FileWriter(fileName,true);//true = append mode
             appendWriter.write("\n"+newText);
